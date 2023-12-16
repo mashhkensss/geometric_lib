@@ -128,6 +128,9 @@
 отрицательных значениях на (ValueError), тесты на значениях разных типов(на TypeError).
 
 # История изменения проекта с хешами комитов (кроме последней записи):
+* f33383b93732dd0fa2c114eb383971520460ee5e Create main.yml
+* 6fc56c26273e56872fe030305d98fc68bed2d703 (HEAD -> tests_409021, origin/tests_409021) Добавлены четыре файла с модульными тестами, обновлён README
+* 8de4003cace1c0f6be846a9cb5b21ea1d8a40831 (origin/documentation, documentation) В папке docs в файл README.md добавлена документация по проекту
 * 25c0cd4ae0cfd6e81a8c41318aa626a1a5434c19 (HEAD -> documentation) К каждому файлу (circle, rectangle, square, triangle) были добавлены комментарии с описанием и примерами вызова функций, содержащихся в них
 * 2bc87e9546a176c064d6a68fb7c1ea0a1278fa9d (origin/new_features_409021, origin/main, origin/HEAD, main) mistake fixed
 * 3017d11dce4fe7518dba795c7d0de00b8d926274 added new file
