@@ -2,10 +2,6 @@ name: CI Run Unit Tests
 
 on:
   push:
-    branches:
-      - main
-      - tests_yml_change
-
 
 jobs:
   test:
@@ -16,10 +12,10 @@ jobs:
         python-version: ["3.9", "3.10", "3.11", "3.12"]
     steps:
     - name: Checkout кода
-      uses: actions/checkout@v4
+      uses: actions/checkout@v2
 
     - name: Установка Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
 

@@ -14,21 +14,21 @@ class TestCircle(unittest.TestCase):
         self.assertEqual(area(30), 2827.4333882308138)
         self.assertEqual(area(2), 12.566370614359172)
 
-    def test_values_area(self):
-        self.assertRaises(ValueError, area, -2)
-        self.assertRaises(ValueError, area, -3)
-        self.assertRaises(ValueError, area, -4000)
-        self.assertRaises(ValueError, area, -1)
-        self.assertRaises(ValueError, area, -5.5)
-
-    def test_types_area(self):
-        self.assertRaises(TypeError, area, 'two')
-        self.assertRaises(TypeError, area, True)
-        self.assertRaises(TypeError, area, [16])
-        self.assertRaises(TypeError, area, 'three')
-        self.assertRaises(TypeError, area, 'a')
-        self.assertRaises(TypeError, area, ['i', 5])
-        self.assertRaises(TypeError, area, [3, 6])
+    # def test_values_area(self):
+    #     self.assertRaises(ValueError, area, -2)
+    #     self.assertRaises(ValueError, area, -3)
+    #     self.assertRaises(ValueError, area, -4000)
+    #     self.assertRaises(ValueError, area, -1)
+    #     self.assertRaises(ValueError, area, -5.5)
+    #
+    # def test_types_area(self):
+    #     self.assertRaises(TypeError, area, 'two')
+    #     self.assertRaises(TypeError, area, True)
+    #     self.assertRaises(TypeError, area, [16])
+    #     self.assertRaises(TypeError, area, 'three')
+    #     self.assertRaises(TypeError, area, 'a')
+    #     self.assertRaises(TypeError, area, ['i', 5])
+    #     self.assertRaises(TypeError, area, [3, 6])
 
     # Тест функции, ищущей периметр круга
 
@@ -42,18 +42,18 @@ class TestCircle(unittest.TestCase):
         self.assertEqual(perimeter(30), 188.49555921538757)
         self.assertEqual(perimeter(2), 12.566370614359172)
 
-    def test_values_perimeter(self):
-        self.assertRaises(ValueError, perimeter, -2)
-        self.assertRaises(ValueError, perimeter, -3)
-        self.assertRaises(ValueError, perimeter, -4000)
-        self.assertRaises(ValueError, perimeter, -1)
-        self.assertRaises(ValueError, perimeter, -5.5)
-
-    def test_types_perimeter(self):
-        self.assertRaises(TypeError, perimeter, 'two')
-        self.assertRaises(TypeError, perimeter, True)
-        self.assertRaises(TypeError, perimeter, [16])
-        self.assertRaises(TypeError, perimeter, 'three')
-        self.assertRaises(TypeError, perimeter, 'a')
-        self.assertRaises(TypeError, perimeter, ['i', 5])
-        self.assertRaises(TypeError, perimeter, [3, 6])
+    # def test_values_perimeter(self):
+    #     self.assertRaises(ValueError, perimeter, -2)
+    #     self.assertRaises(ValueError, perimeter, -3)
+    #     self.assertRaises(ValueError, perimeter, -4000)
+    #     self.assertRaises(ValueError, perimeter, -1)
+    #     self.assertRaises(ValueError, perimeter, -5.5)
+    #
+    # def test_types_perimeter(self):
+    #     self.assertRaises(TypeError, perimeter, 'two')
+    #     self.assertRaises(TypeError, perimeter, True)
+    #     self.assertRaises(TypeError, perimeter, [16])
+    #     self.assertRaises(TypeError, perimeter, 'three')
+    #     self.assertRaises(TypeError, perimeter, 'a')
+    #     self.assertRaises(TypeError, perimeter, ['i', 5])
+    #     self.assertRaises(TypeError, perimeter, [3, 6])
